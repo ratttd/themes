@@ -1229,7 +1229,7 @@ html {
     font-weight: 700;
     text-align: center;
     transition: all .3s ease-in-out;
-    opacity: .7
+    opacity: 1;
 }
 
 .name__590d6:before {
