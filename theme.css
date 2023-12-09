@@ -1255,8 +1255,6 @@ html {
 }
 
 .channelTextArea__56a36 {
-    background: rgba(0, 0, 0, 0);
-    transition: all 0.15s ease-in-out;
     position: relative;
     overflow: hidden;
 }
@@ -1264,8 +1262,8 @@ html {
 .channelTextArea__56a36:before {
     content: "";
     position: absolute;
-    height: 150%;
-    width: 150%;
+    height: calc(100% + 10px); /* Extend 5 pixels beyond top and bottom */
+    width: calc(100% + 10px); /* Extend 5 pixels beyond left and right */
     background: conic-gradient(
         #fd004c,
         #fe9000,
@@ -1275,14 +1273,13 @@ html {
         #b102b7,
         #fd004c
     );
-    top: -25%;
-    left: -25%;
-    animation: spin 1.5s infinite linear;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    top: -5px; /* Move up by 5 pixels to extend beyond the top */
+    left: -5px; /* Move left by 5 pixels to extend beyond the left */
+    animation: spin 3s infinite linear;
+    z-index: -1; /* Place behind the text area */
 }
 
-.channelTextArea__56a36:focus-within:before {
+.channelTextArea__56a36:hover:before {
     opacity: 1;
 }
 
