@@ -1254,16 +1254,37 @@ html {
     margin-left: 5px
 }
 
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151320;
+}
+
 .channelTextArea__56a36 {
-    position: relative;
+    background: rgba(0, 0, 0, .6);
+    transition: all .15s ease-in-out;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
-.channelTextArea__56a36:before {
+.channelTextArea__56a36:focus-within:before {
     content: "";
+    height: 150%;
+    width: 150%;
     position: absolute;
-    height: calc(100% + 10px); /* Extend 5 pixels beyond top and bottom */
-    width: calc(100% + 10px); /* Extend 5 pixels beyond left and right */
     background: conic-gradient(
         #fd004c,
         #fe9000,
@@ -1271,17 +1292,11 @@ html {
         #3edf4b,
         #3363ff,
         #b102b7,
-        #fd004c);
-    top: -5px; /* Move up by 5 pixels to extend beyond the top */
-    bottom: -5px;
-    right: -5px;
-    left: -5px; /* Move left by 5 pixels to extend beyond the left */
+        #fd004c
+    );
+    left: -25%;
+    top: -25%;
     animation: spin 1.5s infinite linear;
-    z-index: -1; /* Place behind the text area */
-}
-
-.channelTextArea__56a36:focus-within {
-    opacity: 1;
 }
 
 @keyframes spin {
@@ -1289,6 +1304,17 @@ html {
         transform: rotate(-360deg);
     }
 }
+
+.channelTextArea__56a36:focus-within:after {
+    position: absolute;
+    background-color: #1c1b29;
+    height: 93%;
+    width: 93%;
+    top: 3.5%;
+    left: 3.5%;
+    border-radius: 5px;
+}
+
 
 
 
