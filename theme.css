@@ -1254,7 +1254,7 @@ html {
     margin-left: 5px
 }
 
-@keyframe bxshadow {
+@keyframes bxshadow {
     0% {
         box-shadow: 0 0 2px 2px rgba(255, 0, 0, 1); /* Red */
     }
@@ -1286,7 +1286,7 @@ html {
 .channelTextArea__56a36:focus-within {
     animation: bxshadow .9s linear infinite;
 }
-@keyframe bshadow {
+@keyframes bshadow {
     0% {
         border-color: rgba(255, 0, 0, 1); /* Red */
     }
