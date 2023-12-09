@@ -285,42 +285,34 @@
     width: auto
 }
 
-@keyframes rainbow {
-    0% {
-        -webkit-filter: hue-rotate(0);
-        -moz-filter: hue-rotate(0);
-        -ms-filter: hue-rotate(0);
-        filter: hue-rotate(0)
-    }
-
-    100% {
-        -webkit-filter: hue-rotate(360deg);
-        -moz-filter: hue-rotate(360deg);
-        -ms-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg)
-    }
-}
-
 @keyframes anim {
-    0% {
-        -webkit-filter: hue-rotate(200);
-        -moz-filter: hue-rotate(200);
-        -ms-filter: hue-rotate(200);
-        filter: hue-rotate(200)
-    }
+  0% {
+    filter: hue-rotate(0deg); /* Red */
+  }
 
-    50% {
-        -webkit-filter: hue-rotate(300deg);
-        -moz-filter: hue-rotate(300deg);
-        -ms-filter: hue-rotate(300deg);
-        filter: hue-rotate(300deg)
-    }
-    100% {
-        -webkit-filter: hue-rotate(200);
-        -moz-filter: hue-rotate(200);
-        -ms-filter: hue-rotate(200);
-        filter: hue-rotate(200)
-    }
+  16.67% {
+    filter: hue-rotate(60deg); /* Orange */
+  }
+
+  33.33% {
+    filter: hue-rotate(120deg); /* Yellow */
+  }
+
+  50% {
+    filter: hue-rotate(180deg); /* Green */
+  }
+
+  66.67% {
+    filter: hue-rotate(240deg); /* Blue */
+  }
+
+  83.33% {
+    filter: hue-rotate(300deg); /* Purple */
+  }
+
+  100% {
+    filter: hue-rotate(360deg); /* Back to Red (360deg) */
+  }
 }
 
 .item_f9d377 {
