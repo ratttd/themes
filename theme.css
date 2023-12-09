@@ -302,7 +302,7 @@
 }
 
 .item_f9d377 {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     border: 2px solid var(--main-theme-color);
     background: 0 0;
     border-radius: 100%;
@@ -444,7 +444,7 @@
 }
 
 .members__9f47b .membersGroup__85843 {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     padding-top: 20px;
     display: flex;
     align-items: center;
@@ -462,7 +462,7 @@
 }
 
 .members__9f47b .membersGroup__85843:before {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     content: "";
     height: 2px;
     flex-grow: 1;
@@ -471,7 +471,7 @@
 }
 
 .members__9f47b .membersGroup__85843:after {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     content: "";
     height: 2px;
     flex-grow: 1;
@@ -1179,7 +1179,7 @@ html {
 .numberBadge__50328,
 .textBadge__45d79 {
     background: var(--main-theme-color) !important;
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     box-shadow: 0 0 10px -3px var(--main-theme-color), 0 0 0 1px var(--main-theme-color);
     color: #fff;
     font-weight: 600;
@@ -1199,14 +1199,14 @@ html {
 .selected__5711d .numberBadge__50328,
 .selected__5711d .textBadge__45d79 {
     background: #fff !important;
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     box-shadow: none;
     color: var(--main-theme-color);
     mix-blend-mode: screen
 }
 
 .name__590d6 {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1218,7 +1218,7 @@ html {
 }
 
 .name__590d6:before {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     content: "";
     height: 2px;
     flex-grow: 1;
@@ -1228,7 +1228,7 @@ html {
 }
 
 .name__590d6:after {
-    animation: var(--unread-server-animation)3s linear infinite;
+    animation: var(--unread-server-animation);
     content: "";
     height: 2px;
     flex-grow: 1;
