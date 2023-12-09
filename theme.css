@@ -301,6 +301,28 @@
     }
 }
 
+@keyframes anim {
+    0% {
+        -webkit-filter: hue-rotate(200);
+        -moz-filter: hue-rotate(200);
+        -ms-filter: hue-rotate(200);
+        filter: hue-rotate(200)
+    }
+
+    50% {
+        -webkit-filter: hue-rotate(300deg);
+        -moz-filter: hue-rotate(300deg);
+        -ms-filter: hue-rotate(300deg);
+        filter: hue-rotate(300deg)
+    }
+    100% {
+        -webkit-filter: hue-rotate(200);
+        -moz-filter: hue-rotate(200);
+        -ms-filter: hue-rotate(200);
+        filter: hue-rotate(200)
+    }
+}
+
 .item_f9d377 {
     animation: var(--unread-server-animation);
     border: 2px solid var(--main-theme-color);
