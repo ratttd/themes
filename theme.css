@@ -1279,17 +1279,18 @@ html {
 }
 
 .channelTextArea__56a36 {
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0);
     transition: all .15s ease-in-out
 }
 
 .channelTextArea__56a36:focus-within {
     animation: bxshadow .9s linear infinite;
 }
+
 .container_c24cbd {
     position: relative;
-    background: rgba(0, 0, 0, 0.4);
-    border: 2px solid;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid transparent;
 }
 
 .container_c24cbd::before {
@@ -1299,21 +1300,74 @@ html {
     left: -5px;
     right: -5px;
     bottom: -5px;
-    border: 2px solid transparent;
+    border: 2px solid;
     border-radius: inherit;
-    animation: bxshadow 6s linear infinite;
+    animation: bshadow 6s linear infinite;
 }
 
-@keyframes bxshadow {
+@keyframes bshadow {
     0% {
-        box-shadow: 0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
-                    0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
-                    0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
-                    0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
-                    0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
-                    0 0 2px 2px rgba(128, 0, 128, 1); /* Purple */
+        box-shadow: 
+            0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
+            0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
+            0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
+            0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
+            0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
+            0 0 2px 2px rgba(128, 0, 128, 1); /* Purple */
+    }
+    16.666% {
+        box-shadow: 
+            0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
+            0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
+            0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
+            0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
+            0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
+            0 0 2px 2px rgba(128, 0, 128, 1); /* Purple */
+    }
+    33.333% {
+        box-shadow: 
+            0 0 2px 2px rgba(128, 0, 128, 1), /* Purple */
+            0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
+            0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
+            0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
+            0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
+            0 0 2px 2px rgba(0, 0, 255, 1); /* Blue */
+    }
+    50% {
+        box-shadow: 
+            0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
+            0 0 2px 2px rgba(128, 0, 128, 1), /* Purple */
+            0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
+            0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
+            0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
+            0 0 2px 2px rgba(0, 128, 0, 1); /* Green */
+    }
+    66.666% {
+        box-shadow: 
+            0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
+            0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
+            0 0 2px 2px rgba(128, 0, 128, 1), /* Purple */
+            0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
+            0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
+            0 0 2px 2px rgba(255, 255, 0, 1); /* Yellow */
+    }
+    83.333% {
+        box-shadow: 
+            0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
+            0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
+            0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
+            0 0 2px 2px rgba(128, 0, 128, 1), /* Purple */
+            0 0 2px 2px rgba(255, 0, 0, 1), /* Red */
+            0 0 2px 2px rgba(255, 165, 0, 1); /* Orange */
     }
     100% {
-        transform: rotate(360deg);
+        box-shadow: 
+            0 0 2px 2px rgba(255, 165, 0, 1), /* Orange */
+            0 0 2px 2px rgba(255, 255, 0, 1), /* Yellow */
+            0 0 2px 2px rgba(0, 128, 0, 1), /* Green */
+            0 0 2px 2px rgba(0, 0, 255, 1), /* Blue */
+            0 0 2px 2px rgba(128, 0, 128, 1), /* Purple */
+            0 0 2px 2px rgba(255, 0, 0, 1); /* Red */
     }
 }
+
