@@ -315,6 +315,15 @@
   }
 }
 
+@keyframes twocolfade {
+  0%, 100% {
+    color: var(--col-one);
+  }
+  50% {
+    color: var(--col-two);
+  }
+}
+
 .item_f9d377 {
     animation: var(--unread-server-animation);
     border: 2px solid var(--main-theme-color);
