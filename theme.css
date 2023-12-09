@@ -1288,21 +1288,9 @@ html {
 }
 
 .container_c24cbd {
-    position: relative;
     background: rgba(0, 0, 0, 0);
     border: 2px solid;
-}
-
-.container_c24cbd::before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    border: 2px solid;
-    border-radius: inherit;
-    animation: bshadow 6s linear infinite;
+    animation: bshadow .9s linear infinite;
 }
 
 @keyframes bshadow {
