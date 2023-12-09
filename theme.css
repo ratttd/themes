@@ -1233,6 +1233,7 @@ html {
 
 .name__590d6:before {
     animation: var(--unread-server-animation);
+    color: var(--main-theme-color);
     content: "";
     height: 2px;
     flex-grow: 1;
@@ -1243,6 +1244,7 @@ html {
 
 .name__590d6:after {
     animation: var(--unread-server-animation);
+    color: var(--main-theme-color);
     content: "";
     height: 2px;
     flex-grow: 1;
