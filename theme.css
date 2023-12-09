@@ -1237,7 +1237,7 @@ html {
     height: 2px;
     flex-grow: 1;
     transition: all .3s ease-in-out;
-    background: linear-gradient(to left, var(--main-theme-color) 50%, transparent);
+    background: linear-gradient(to left, currentColor 50%, transparent);
     margin-right: 5px
 }
 
@@ -1247,6 +1247,6 @@ html {
     height: 2px;
     flex-grow: 1;
     transition: all .3s ease-in-out;
-    background: linear-gradient(to right, var(--main-theme-color) 50%, transparent);
+    background: linear-gradient(to right, currentColor 50%, transparent);
     margin-left: 5px
 }
