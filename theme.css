@@ -1290,7 +1290,7 @@ html {
 .container_c24cbd {
     position: relative;
     background: rgba(0, 0, 0, 0);
-    border: 2px solid transparent;
+    border: 2px solid;
 }
 
 .container_c24cbd::before {
