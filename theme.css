@@ -443,8 +443,40 @@
     color: var(--category-hover-color)
 }
 
-.membersGroup__85843 {
-    color: var(--member-listing-role-color)
+.members__9f47b .membersGroup__85843 {
+    animation: var(--unread-server-animation)3s linear infinite;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-theme-color);
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    transition: all .15s ease-in-out;
+    opacity: .85
+}
+
+.members__9f47b .membersGroup__85843:hover {
+    opacity: 1
+}
+
+.members__9f47b .membersGroup__85843:before {
+    animation: var(--unread-server-animation)3s linear infinite;
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: linear-gradient(to left, currentColor 50%, transparent);
+    margin-right: 5px
+}
+
+.members__9f47b .membersGroup__85843:after {
+    animation: var(--unread-server-animation)3s linear infinite;
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    background: linear-gradient(to right, currentColor 50%, transparent);
+    margin-left: 5px
 }
 
 .thin_b1c063::-webkit-scrollbar-track {
