@@ -1255,5 +1255,35 @@ html {
 }
 
 
+@keyframes bxshadow {
+    0% {
+        box-shadow: 
+            0 0 0 0.5em #fd004c,
+            0 0 0 1em #fe9000,
+            0 0 0 1.5em #fff020,
+            0 0 0 2em #3edf4b,
+            0 0 0 2.5em #3363ff,
+            0 0 0 3em #b102b7,
+            0 0 0 3.5em #fd004c;
+    }
+    100% {
+        box-shadow: 
+            0 0 0 0.5em #fd004c,
+            0 0 0 1em #fe9000,
+            0 0 0 1.5em #fff020,
+            0 0 0 2em #3edf4b,
+            0 0 0 2.5em #3363ff,
+            0 0 0 3em #b102b7,
+            0 0 0 3.5em #fd004c;
+        transform: rotate(360deg);
+    }
+}
 
+.channelTextArea__56a36 {
+    background: rgba(0, 0, 0, .6);
+    transition: all .15s ease-in-out
+}
 
+.channelTextArea__56a36:focus-within {
+    animation: bxshadow .9s linear infinite;
+}
