@@ -1173,6 +1173,16 @@ html {
     mix-blend-mode: screen
 }
 
+.name__590d6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-theme-color);
+    font-weight: 700;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    opacity: .7
+}
 
 .name__590d6:before {
     content: "";
