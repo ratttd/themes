@@ -367,13 +367,13 @@
 .button__66e8c.buttonColor_a6eb73,
 .button__66e8c .buttonColor_a6eb73 {
     background-color: var(--video-screen-button-background-color);
-    color: var(--video-screen-button-foreground-color)
+    color: var(--video-screen-button-foreground-color);
 }
 
 .button__66e8c.buttonColor_a6eb73:hover,
 .button__66e8c .buttonColor_a6eb73:hover {
     background-color: var(--video-screen-button-background-hovor-color);
-    color: var(--video-screen-button-foreground-hovor-color)
+    color: var(--video-screen-button-foreground-hovor-color);
 }
 
 .wrapper__6e669 {
@@ -454,7 +454,8 @@
 .wrapper__9c483.muted_de6e6e:hover .name__590d6,
 .wrapper__9c483:hover .icon_ef4486,
 .wrapper__9c483:hover .name__590d6.container_de798d {
-    color: var(--category-hover-color)
+    color: var(--main-theme-color);
+    animation: var(--unread-server-animation);
 }
 
 .members__9f47b .membersGroup__85843 {
