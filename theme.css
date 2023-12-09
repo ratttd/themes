@@ -1174,11 +1174,11 @@ html {
 }
 
 .name__590d6 {
+    animation: var(--unread-server-animation)3s linear infinite;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--main-theme-color);
-    animation: var(--unread-server-animation)3s linear infinite;
     font-weight: 700;
     text-align: center;
     transition: all .3s ease-in-out;
@@ -1186,21 +1186,21 @@ html {
 }
 
 .name__590d6:before {
+    animation: var(--unread-server-animation)3s linear infinite;
     content: "";
     height: 2px;
     flex-grow: 1;
-    transition: all 3s ease-in-out;
+    transition: all .3s ease-in-out;
     background: linear-gradient(to left, var(--main-theme-color) 50%, transparent);
-    animation: var(--unread-server-animation)3s linear infinite;
     margin-right: 5px
 }
 
 .name__590d6:after {
+    animation: var(--unread-server-animation)3s linear infinite;
     content: "";
     height: 2px;
     flex-grow: 1;
-    transition: all 0s ease-in-out;
+    transition: all .3s ease-in-out;
     background: linear-gradient(to right, var(--main-theme-color) 50%, transparent);
-    animation: var(--unread-server-animation)3s linear infinite;
     margin-left: 5px
 }
