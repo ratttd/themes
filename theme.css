@@ -1324,13 +1324,13 @@ html {
   }
 }
 
-.mentioned_58017 {
+.mentioned__58017 {
   animation: gradient-move 10s linear infinite;
   background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%);
   background-size: 200% auto;
 }
 
-.mentioned_58017:hover {
+.mentioned__58017:hover {
   animation: gradient-move 10s linear infinite;
   background: linear-gradient(to right, #af21885b 20%, #1717175b 35%, #1717175b 35%, #af218896 50%, #af218896 50%, #5d60ca5b 75%, #af21885b 90%);
   background-size: 200% auto;
