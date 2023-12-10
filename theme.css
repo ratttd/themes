@@ -1203,7 +1203,7 @@ html {
 .numberBadge__50328,
 .textBadge__45d79 {
     animation: var(--unread-server-animation);
-    background: var(--main-theme-color) !important;
+    background: var(--main-theme-color);
     box-shadow: 0 0 10px -3px var(--main-theme-color), 0 0 0 1px var(--main-theme-color);
     color: #fff;
     font-weight: 600;
