@@ -1334,3 +1334,23 @@ html {
   animation: gradient-move 10s linear infinite;
   background: linear-gradient(to right, #af21885b 20%, #1717175b 35%, #1717175b 35%, #af218896 50%, #af218896 50%, #5d60ca5b 75%, #af21885b 90%);
   background-size: 200% auto;
+}
+
+.wrapper__7bcde.modeUnreadImportant_efb53e .link__95dc0 .linkTop_eaa673 .name__8d1ec {
+    color: var(--main-theme-color);
+    text-shadow: 0 0 3px
+}
+
+.wrapper__7bcde.modeUnreadImportant_efb53e .link__95dc0 .linkTop_eaa673 .icon_eff5d4 {
+    color: var(--main-theme-color);
+    filter: drop-shadow(0 0 3px);
+    opacity: 1
+}
+
+.wrapper__7bcde.modeUnreadImportant_efb53e:hover .link__95dc0 .linkTop_eaa673 .name__8d1ec {
+    color: var(--main-theme-color)
+}
+
+.wrapper__7bcde.modeUnreadImportant_efb53e:hover .link__95dc0 .linkTop_eaa673 .icon_eff5d4 {
+    color: var(--main-theme-color)
+}
