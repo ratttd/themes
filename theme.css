@@ -463,8 +463,8 @@
 .wrapper__9c483.muted_de6e6e:hover .name__590d6,
 .wrapper__9c483:hover .icon_ef4486,
 .wrapper__9c483:hover .name__590d6.container_de798d {
-    color: var(--main-theme-color);
     animation: var(--unread-server-animation);
+    color: var(--main-theme-color);
 }
 
 .members__9f47b .membersGroup__85843 {
@@ -1202,8 +1202,8 @@ html {
 
 .numberBadge__50328,
 .textBadge__45d79 {
-    background: var(--main-theme-color) !important;
     animation: var(--unread-server-animation);
+    background: var(--main-theme-color) !important;
     box-shadow: 0 0 10px -3px var(--main-theme-color), 0 0 0 1px var(--main-theme-color);
     color: #fff;
     font-weight: 600;
