@@ -1273,17 +1273,17 @@ html {
     margin-left: 5px
 }
 
-.side_b4b3f6 .item__48dda .selected__5711d{
+.side_b4b3f6 .item__48dda .selected__5711d .themed_b957e8{
     background: rgba(0, 0, 0, 0);
     color: #fff;
     transition: all .15s ease-in-out, background .3s .2s
 }
 
-.side_b4b3f6 .item__48dda .selected__5711d:before {
+.side_b4b3f6 .item__48dda .selected__5711d .themed_b957e8:before {
     opacity: 1
 }
 
-.side_b4b3f6 .item__48dda .selected__5711d:after {
+.side_b4b3f6 .item__48dda .selected__5711d .themed_b957e8:after {
     right: 0;
     background: var(--main-theme-color);
     animation: cv-channel-select .3s ease-in-out
