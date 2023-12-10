@@ -1230,7 +1230,6 @@ html {
 }
 
 .name__590d6 {
-    animation: var(--unread-server-animation);
     display: flex;
     align-items: center;
     justify-content: center;
