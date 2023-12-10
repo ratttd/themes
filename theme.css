@@ -317,10 +317,10 @@
 
 @keyframes twocolfade {
   0%, 100% {
-    filter: hue-rotate(240deg);
+      color: var(--first-color);
   }
   50% {
-    filter: hue-rotate(300deg);
+    color: var(--second-color);
   }
 }
 
