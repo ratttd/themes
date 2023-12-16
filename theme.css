@@ -1358,7 +1358,7 @@ html {
 }
 
 .markup_a7e664 span{ 
-  color: var();
+  color: var(--font-color);
 }
 
 .overflow__87fe8 {
