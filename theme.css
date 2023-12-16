@@ -866,7 +866,7 @@
 
 .modeSelected__487d6 .name__8d1ec,
 .modeSelected__487d6:hover .name__8d1ec {
-    color: var(--text-voice-channel-selected-text-color)
+    color: var(--text-voice-channel-selected-text-color) !important;
     opacity: 1;
 }
 
